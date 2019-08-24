@@ -1,0 +1,20 @@
+{
+  "namespace": "AvroListOfLists.Records",
+  "name": "MatrixOfNullablesRecord",
+  "type": "record",
+  "fields": [
+    {
+      "name": "MyMatrix",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": [ "null", "int" ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "namespace": "AvroListOfLists.Records",
+  "name": "MatrixRecord",
+  "type": "record",
+  "fields": [
+    {
+      "name": "MyMatrix",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": "int"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "namespace": "AvroListOfLists.Records",
+  "name": "MyNullableRecord",
+  "type": "record",
+  "fields": [
+    {
+      "name": "MyNullable",
+      "type": [ "null", "int" ]
+    }
+  ]
+}

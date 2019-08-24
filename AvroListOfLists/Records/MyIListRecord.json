@@ -1,0 +1,14 @@
+{
+  "namespace": "AvroListOfLists.Records",
+  "name": "MyIListRecord",
+  "type": "record",
+  "fields": [
+    {
+      "name": "MyIList",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    }
+  ]
+}
